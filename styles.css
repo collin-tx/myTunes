@@ -131,6 +131,11 @@ a {
     margin-top: 1rem;
 }
 
+.bg-light {
+    background: var(--light-color);
+    color: #333;
+}
+
 
 /* Navigation */
 
