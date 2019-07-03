@@ -27,6 +27,13 @@ a {
     color: #ccc;
 }
 
+.gift-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+
 
 /* Section */
 
@@ -46,15 +53,6 @@ a {
 section#entertainment {
     background: url(images/section-bg.jpg) no-repeat bottom/cover;
     padding: 10rem 0;
-}
-
-
-/* Buttons */
-
-.btn {
-    padding: 1rem;
-    color: #fff;
-    display: inline-block;
 }
 
 
@@ -95,6 +93,15 @@ section#entertainment {
 
 .lead {
     font-size: 1.3rem;
+}
+
+
+/* Buttons */
+
+.btn {
+    padding: 1rem;
+    color: #fff;
+    display: inline-block;
 }
 
 .btn-primary {
